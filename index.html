@@ -1,0 +1,25 @@
+<html>
+   <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+   </head>
+   <body>
+         <p id="excuse">Oh my good! you will not believe me but... </p>
+         <script>
+                function excuse(){         
+                 let who = ["my aunty ", "my dog ", "the postman ", "a granny ", "my neighbour " ];
+                 let action =["climbed ","throwed ","robed ","broked in ","kicked "];
+                 let what = [ "a truck ", "my runners ","my car ","the computer ","the fridge "];
+                 let where =[ "under the carpet", "at the train", "on the roof","at next door","on my balcony"];
+                
+                var quien = who[Math.floor(Math.random() *5)];
+                var accion = action[Math.floor(Math.random() *5)];
+                var que = what[Math.floor(Math.random() *5)];
+                var donde = where[Math.floor(Math.random() *5)];
+                document.write(quien+accion+que+donde);
+                 
+             }
+             excuse();
+         </script>
+
+   </body>
+</html>
